@@ -16,7 +16,7 @@ A Kubernetes controller that runs [Buildkite steps](https://buildkite.com/docs/p
 
 ### Deploy with Helm
 
-The simplest way to get up and running is by deploying our [Helm](https://helm.sh) chart:
+The simplest way to get up and running is by deploying our [Helm](https://helm.sh) chart :
 
 ```bash
 helm upgrade --install agent-stack-k8s oci://ghcr.io/buildkite/helm/agent-stack-k8s \
